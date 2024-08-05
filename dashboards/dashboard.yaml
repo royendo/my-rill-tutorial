@@ -8,7 +8,7 @@ title: "My Tutorial Project"
 model: commits___model
 
 timeseries: author_date # Select an actual timestamp column (if any) from your table
-
+      
 dimensions:
 - column: author_name
   label: "The Author's Name"
