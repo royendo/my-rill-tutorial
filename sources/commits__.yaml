@@ -5,3 +5,6 @@ type: source
 
 connector: "duckdb"
 sql: "select * from read_parquet('gs://rilldata-public/github-analytics/Clickhouse/commits_*.parquet')"
+
+refresh:
+  every: 24h
