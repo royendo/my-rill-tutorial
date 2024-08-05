@@ -14,6 +14,10 @@ dimensions:
   label: "The Author's Name"
   description: "The name of the author of the commit"
 
+- column: author_email
+  label: "The Author's Name"
+  description: "The name of the author of the commit"
+
 - column: author_timezone
   label: "The Author's TZ"
   description: "The Author's Timezone"
