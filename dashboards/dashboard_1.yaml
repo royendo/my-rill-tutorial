@@ -30,12 +30,10 @@ measures:
 - expression: "SUM(total_line_changes)"
   label: "Total number of Lines changed"
   description: "the total number of lines changes, addition and deletion"
-  format_preset: none
 
 - expression: "SUM(net_line_changes)"
   label: "Net number of Lines changed"
   description: "the total net number of lines changes"
-  format_preset: none
 
 - expression: "SUM(num_commits)"
   label: "Number of Commits"
@@ -45,3 +43,6 @@ measures:
   label: "Code Deletion %"
   description: "The percent of code deletion"
   format_preset: percentage
+
+security:
+  access: "{{ .user.admin }}"
